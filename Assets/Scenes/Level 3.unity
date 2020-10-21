@@ -308,26 +308,74 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 676341833599396114, guid: 64f1cdfa653d4dd43880d8311dacda93,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8055246489576295587, guid: 64f1cdfa653d4dd43880d8311dacda93,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6900842265101794703, guid: 64f1cdfa653d4dd43880d8311dacda93,
         type: 3}
       propertyPath: maxSpawnDelay
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6900842265101794703, guid: 64f1cdfa653d4dd43880d8311dacda93,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4138687294805377918, guid: 64f1cdfa653d4dd43880d8311dacda93,
+        type: 3}
+      propertyPath: attackerPrefabArray.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4138687294805377918, guid: 64f1cdfa653d4dd43880d8311dacda93,
         type: 3}
       propertyPath: maxSpawnDelay
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4138687294805377918, guid: 64f1cdfa653d4dd43880d8311dacda93,
+        type: 3}
+      propertyPath: attackerPrefabArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 5903416211231303281, guid: c6c6931b81d7320438958d7fa3d9d7c5,
+        type: 3}
+    - target: {fileID: 4138687293890608561, guid: 64f1cdfa653d4dd43880d8311dacda93,
+        type: 3}
+      propertyPath: attackerPrefabArray.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4138687293890608561, guid: 64f1cdfa653d4dd43880d8311dacda93,
         type: 3}
       propertyPath: maxSpawnDelay
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4138687293890608561, guid: 64f1cdfa653d4dd43880d8311dacda93,
+        type: 3}
+      propertyPath: attackerPrefabArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 5903416211231303281, guid: c6c6931b81d7320438958d7fa3d9d7c5,
+        type: 3}
+    - target: {fileID: 4138687295820756324, guid: 64f1cdfa653d4dd43880d8311dacda93,
+        type: 3}
+      propertyPath: attackerPrefabArray.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4138687295820756324, guid: 64f1cdfa653d4dd43880d8311dacda93,
         type: 3}
       propertyPath: maxSpawnDelay
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4138687295820756324, guid: 64f1cdfa653d4dd43880d8311dacda93,
+        type: 3}
+      propertyPath: attackerPrefabArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 5903416211231303281, guid: c6c6931b81d7320438958d7fa3d9d7c5,
+        type: 3}
     - target: {fileID: 4138687295175858238, guid: 64f1cdfa653d4dd43880d8311dacda93,
         type: 3}
       propertyPath: maxSpawnDelay
@@ -614,6 +662,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Buttons
       objectReference: {fileID: 0}
+    - target: {fileID: 3026452115184771077, guid: 53d5455528289074f9db1275a06b6bf8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8558662836159270084, guid: 53d5455528289074f9db1275a06b6bf8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -718,6 +771,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 257737297, guid: 53d5455528289074f9db1275a06b6bf8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d5455528289074f9db1275a06b6bf8, type: 3}
@@ -837,6 +894,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 34311298, guid: 8c7b82e1f7d2962458ac4c552cafaa58, type: 3}
+      propertyPath: levelTime
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 723844793, guid: 8c7b82e1f7d2962458ac4c552cafaa58, type: 3}
       propertyPath: m_AnchorMin.x
