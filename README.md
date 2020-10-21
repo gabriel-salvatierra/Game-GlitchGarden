@@ -1,3 +1,3 @@
-#Glitch Garden
+# Glitch Garden
 
-In demo you can find de game and captures
+In /Demo folder you can find the game and captures
